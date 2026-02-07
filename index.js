@@ -1,7 +1,8 @@
 const noBtn = document.getElementById("noBtn");
 const yesBtn = document.getElementById("yesBtn");
 const message = document.getElementById("message");
-const music = document.getElementById("bgMusic");
+const sticker = document.getElementById("sticker");
+// const music = document.getElementById("bgMusic");
 
 // NO button bhage 😄
 noBtn.addEventListener("mouseover", () => {
@@ -13,7 +14,9 @@ noBtn.addEventListener("mouseover", () => {
 // YES click → music + message 💖
 yesBtn.addEventListener("click", () => {
     // music.play();
-    document.getElementById("sticker").style.display = "block";
+    content.style.display = "none";
+
+    sticker.style.display = "block";
 
 });
 
@@ -30,5 +33,4 @@ setInterval(() => {
     setTimeout(() => {
         heart.remove();
     }, 4000);
-
 }, 300);
