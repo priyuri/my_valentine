@@ -13,7 +13,7 @@ noBtn.addEventListener("mouseover", () => {
 // YES click → music + message 💖
 yesBtn.addEventListener("click", () => {
     // music.play();
-    message.innerHTML = "Yayyy! 💖<br>You made my day 😍<br>Happy Valentine’s Day ❤️";
+    document.getElementById("sticker").style.display = "block";
 
 });
 
@@ -30,4 +30,5 @@ setInterval(() => {
     setTimeout(() => {
         heart.remove();
     }, 4000);
+
 }, 300);
