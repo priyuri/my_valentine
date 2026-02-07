@@ -67,7 +67,7 @@ button {
     display: none;
     width: 180px;
     margin-top: 20px;
-    margin-left: 120px;
+    margin-left: 150px;
 }
 
 #message {
@@ -96,4 +96,5 @@ button {
     }
 
 }
+
 
