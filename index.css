@@ -65,7 +65,7 @@ button {
 
 #yeahText {
     position: fixed;
-    top: 20vh;
+    top: 25vh;
     /* left: 650px; */
     text-align: center;
     font-size: 35px;
@@ -123,3 +123,4 @@ button {
         opacity: 0;
     }
 }
+
