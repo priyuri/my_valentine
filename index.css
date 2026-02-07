@@ -66,7 +66,6 @@ button {
 /* #yeahText {
     position: fixed;
     top: 150px;
-    /* sticker se upar */
     left: 650px;
     font-size: 40px;
     font-weight: bold;
@@ -74,6 +73,7 @@ button {
     display: none;
     animation: pop 0.5s ease-out;
 } */
+
 
 #yeahText {
     position: absolute;
@@ -93,7 +93,7 @@ button {
     margin-top: 20px;
     margin-left: 120px;
     animation: pop 0.4s ease;
-    position:relative;
+    position: relative;
 }
 
 @keyframes pop {
@@ -134,5 +134,3 @@ button {
         opacity: 0;
     }
 }
-
-
