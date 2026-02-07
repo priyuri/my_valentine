@@ -2,6 +2,7 @@ const noBtn = document.getElementById("noBtn");
 const yesBtn = document.getElementById("yesBtn");
 const message = document.getElementById("message");
 const sticker = document.getElementById("sticker");
+const yeahText = document.getElementById("yeahText");
 // const music = document.getElementById("bgMusic");
 
 // NO button bhage 😄
@@ -35,4 +36,3 @@ setInterval(() => {
         heart.remove();
     }, 4000);
 }, 300);
-
