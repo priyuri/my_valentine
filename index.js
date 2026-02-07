@@ -17,6 +17,7 @@ yesBtn.addEventListener("click", () => {
     content.style.display = "none";
 
     sticker.style.display = "block";
+    yeahText.style.display = "block";
 
 });
 
@@ -34,3 +35,4 @@ setInterval(() => {
         heart.remove();
     }, 4000);
 }, 300);
+
