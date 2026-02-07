@@ -10,6 +10,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.para {
+    font-size: 18px;
+    color: #ff4d6d;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
 .container {
     background: white;
     padding: 20px;
@@ -22,11 +30,12 @@ body {
 h1 {
     color: #ff4d6d;
     font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h2 {
+/* h2 {
     color: #ff758c;
-}
+} */
 
 .buttons {
     margin-top: 30px;
@@ -54,6 +63,13 @@ button {
     position: absolute;
 }
 
+#sticker {
+    display: none;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
 #message {
     margin-top: 25px;
     font-size: 22px;
@@ -78,4 +94,5 @@ button {
         transform: translateY(-800px);
         opacity: 0;
     }
+
 }
